@@ -9,7 +9,9 @@ authors:
 - Mark O'Sullivan <mos182@hotmail.co.uk>
 
 dependencies:
-  image: "^2.1.13"
+  image:
+    git:
+      url: https://github.com/ram231/image.git
   args: "^1.6.0"
   yaml: "^2.2.1"
 
